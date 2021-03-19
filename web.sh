@@ -19,6 +19,8 @@ fi
 brew update
 
 brew install node
+# Install nvm
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 
 # Remove outdated versions from the cellar.
 brew cleanup
@@ -27,5 +29,3 @@ npm install -g coffee-script
 npm install -g grunt-cli
 npm install -g jshint
 npm install -g less
-
-#gem install jekyll
