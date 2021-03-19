@@ -12,7 +12,7 @@ Setting up a new developer machine can be an **ad-hoc, manual, and time-consumin
 * **OS X updates and Xcode Command Line Tools**
 * **OS X defaults** geared towards developers
 * **Developer tools**: Vim, bash, tab completion, curl, git, GNU core utils, Python, Ruby, etc
-* **Developer apps**: iTerm2, Sublime Text, Atom, VirtualBox, Vagrant, Docker, Chrome, etc
+* **Developer apps**: iTerm2, Starship, Atom, VirtualBox, Vagrant, Docker, Chrome, etc
 * **Python data analysis**: IPython Notebook, NumPy, Pandas, Scikit-Learn, Matplotlib, etc
 * **Big Data platforms**: Spark (with IPython Notebook integration) and MapReduce
 * **Cloud services**: Amazon Web Services (Boto, AWS CLI, S3cmd, etc) and Heroku
