@@ -59,10 +59,6 @@ This repo takes a more **light-weight** approach to automation using a combinati
     * Installs common Homebrew formulae and apps
 * [osx.sh script](#osxsh-script)
     * Sets up OS X defaults geared towards developers
-* [pydata.sh script](#pydatash-script)
-    * Sets up python for data analysis
-* [aws.sh script](#awssh-script)
-    * Sets up Spark, Hadoop MapReduce, and Amazon Web Services
 * [datastores.sh script](#datastoressh-script)
     * Sets up common data stores
 * [web.sh script](#websh-script)
