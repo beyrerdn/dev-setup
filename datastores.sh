@@ -24,11 +24,14 @@ brew install postgresql
 brew install mongo
 brew install redis
 brew install elasticsearch
+brew install graphql-cli
 
 # Install mysql workbench
+# Install graphiql https://www.electronjs.org/apps/graphiql
 # Install Cask
 brew install caskroom/cask/brew-cask
 brew cask install --appdir="/Applications" mysqlworkbench
+brew install --cask graphiql
 
 # Remove outdated versions from the cellar.
 brew cleanup
