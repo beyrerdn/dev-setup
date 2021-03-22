@@ -33,6 +33,5 @@ brew install caskroom/cask/brew-cask
 brew install --cask --appdir="/Applications" mysqlworkbench
 brew install --cask --appdir="/Applications" graphiql
 
-
 # Remove outdated versions from the cellar.
 brew cleanup
