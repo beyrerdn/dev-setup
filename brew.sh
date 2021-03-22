@@ -86,25 +86,22 @@ brew install heroku/brew/heroku
 heroku update
 
 # Core casks
-brew cask install --appdir="/Applications" alfred
+brew install --cask --appdir="/Applications" alfred
 brew cask install --appdir="~/Applications" iterm2
-brew cask install --appdir="~/Applications" java
+brew install --cask --appdir="~/Applications" caffeine
 
 # Development tool casks
-brew cask install --appdir="/Applications" atom
+brew install --cask --appdir="/Applications" atom
+brew install --cask --appdir="/Applications" macdown
 brew cask install --appdir="/Applications" virtualbox
-brew cask install --appdir="/Applications" vagrant
-brew cask install --appdir="/Applications" macdown
 
 # Misc casks
-brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" firefox
-brew cask install --appdir="/Applications" slack
-brew cask install --appdir="/Applications" dropbox
-brew cask install --appdir="/Applications" evernote
-
-#Remove comment to install LaTeX distribution MacTeX
-#brew cask install --appdir="/Applications" mactex
+brew install --cask --appdir="/Applications" google-chrome
+brew install --cask --appdir="/Applications" firefox
+brew install --cask --appdir="/Applications" slack
+brew install --cask --appdir="/Applications" dropbox
+brew install --cask --appdir="/Applications" evernote
+brew install --cask --appdir="/Applications" zoom
 
 # Install Docker, which requires virtualbox
 brew install docker
