@@ -10,10 +10,19 @@ alias -- -="cd -"
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias dev="cd ~/Development"
 alias g="git"
 alias h="history"
 alias j="jobs"
+
+# Git Shortcuts
+alias gc='git checkout'
+alias gs='git status'
+alias gl='git log'
+alias gd='git diff'
+alias ga='git add --patch'
+alias gbs='git branch-status'
+alias ggraph='git log master --graph --format="%C(auto) %h %s"'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
